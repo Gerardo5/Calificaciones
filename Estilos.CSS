@@ -1,0 +1,29 @@
+.Inicio
+{
+	color:blue;
+	text-align: center;
+	
+
+}
+.Informacion
+{
+    color:green;
+    text-align: center;
+
+}
+
+.Datos
+{
+   color:red;
+    text-align: left;
+}
+
+.Ilustraciòn
+{
+	width: 250px 
+}
+
+.Centro
+{
+	text-align: center;
+}
