@@ -3,37 +3,56 @@
 
 <head>
 
-<title>Etiqueta DIV</title>
-<link rel="stylesheet" type="text/CSS" href="Estilos.CSS">
+         <title>Calculadora</title>
+         <script type="text/javascript">
+
+
+         function suma (a,b)
+
+         {
+          var r = Number(a) + Number (b);
+          alert(r);
+
+         }
+
+         function resta(a,b)
+
+         {
+          var r = Number (a) - Number(b);
+          alert(r);
+
+         }
+
+         function  multiplicacion(a,b)
+         {
+          var r = Number(a) * Number (b);
+          alert(r);
+         }
+         
+         function division(a,b)
+         {
+          var r= Number(a)/Number(b);
+          alert(r);
+         }
+
+         </script>
+
 </head>
 
-<body style="">
-  <div class="Inicio">
-       <h1> Jose Gerardo Hidalgo Corza</h1>
+<body>
+  <div>
+ 
+     <input id="a" type="text"/>
+     <input id="b" type="text"/>
+     <input type="button"  onclick="suma(document.getElementById('a').value,document.getElementById('b').value);" value="Sumar"/>
+     <input type="button"  onclick="resta(document.getElementById('a').value,document.getElementById('b').value);" value="Restar"/>
+     <input type="button"  onclick="multiplicacion(document.getElementById('a').value,document.getElementById('b').value);" value="Multiplicar"/>
+     <input type="button"  onclick="division(document.getElementById('a').value,document.getElementById('b').value);" value="Dividir"/>
 
+ 
   </div>
 
-  <div class="Ilustraciòn">
-
-  	<img src="Imagenes/Espacio.jpg" style="width:50%;border-radius:30%;">
-
-  </div>
-  
-
-  <div class="Informacion">
-  	  
-  	  <h2> Hola, Mi nombre es Jose Gerardo Hidalgo Corza, Naci el 23 de Mayo de 1999 en Uruapan Michoacan, Tengo 17 Años de Edad, Actualmente Vivo en Irapauto, Estudio en El Colegio de Estudios Cientificos del Estado de Guanajuato(CECYTEG) en el Estudio la Especialidad de Soporte y Mantenimiento a Equipo de Computo(SYMEC).</h2> 
-  	 
-  </div>
-  
-  <div class="Datos Centro">
-  	
-      <h2> Contactame en</h2> 
-  	  <h3> Facebook: Gerardo Corza</h3>
-  	  <h3> WhatsApp: 462-484-72-55</h3>
-  	  <h3> Instagram: Gerardo Hidalgo C.</h3>
-
-  </div>
+       
 
 </body>
   
